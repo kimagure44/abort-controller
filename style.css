@@ -1,0 +1,21 @@
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.result {
+  box-shadow: 0 0 7px 3px rgb(0 0 0 / 20%);
+  width: 80%;
+  height: 400px;
+  margin-top: 20px;
+  overflow: scroll;
+}
+#search,
+#typeSearch {
+  padding: 8px 10px;
+  border: 0;
+  box-shadow: 0 0 7px 3px rgb(0 0 0 / 20%);
+}
