@@ -6,7 +6,6 @@ import { API_SERVICES, ABORT } from "./api.js";
   const result = document.querySelector('.result');
 
   const showResults = (payload) => {
-    debugger;
     let info = '';
     payload.forEach(item => {
       info += '<ul><li><ul>';
